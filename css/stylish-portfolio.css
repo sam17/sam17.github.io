@@ -18,7 +18,7 @@ body {
 
 .text-vertical-center {
     position: absolute;
-    top:200px;
+   /* top:200px;*/
     width: 100%;
     vertical-align: middle;
     text-align: center;
@@ -281,18 +281,6 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
 }
 
 /* Footer */
