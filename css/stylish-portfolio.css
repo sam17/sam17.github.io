@@ -182,7 +182,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/blur_kgp.jpg) no-repeat center center scroll;
+    background: url(../img/kgp.jpg) no-repeat center center scroll;
     /*filter: blur(5px);
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
@@ -194,20 +194,16 @@ hr.small {
     -o-background-size: cover;
 }
 
-/*.header:hover
+.header:hover
 {
-    -webkit-transition: all 0.2s ease;
-     -moz-transition: all 0.2s ease;
-       -o-transition: all 0.2s ease;
-      -ms-transition: all 0.2s ease;
-          transition: all 0.2s ease;
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    background: url(../img/blur_kgp.jpg) no-repeat center center scroll;
 }
-*/
+
 .circular {
 	width: 150px;
 	height: 150px;
