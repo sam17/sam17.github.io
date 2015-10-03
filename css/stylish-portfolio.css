@@ -17,9 +17,10 @@ body {
 }
 
 .text-vertical-center {
-    position: absolute;
+/*    position: absolute;*/
    /* top:200px;*/
     width: 100%;
+	height: 100%
     vertical-align: middle;
     text-align: center;
     display: table-cell;
@@ -181,19 +182,19 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/kgp.jpg) no-repeat center center scroll;
-    filter: blur(5px);
+    background: url(../img/blur_kgp.jpg) no-repeat center center scroll;
+    /*filter: blur(5px);
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    -webkit-background-size: cover;
+    -ms-filter: blur(5px);*/
+	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.header:hover
+/*.header:hover
 {
     -webkit-transition: all 0.2s ease;
      -moz-transition: all 0.2s ease;
@@ -206,7 +207,7 @@ hr.small {
     -o-filter: blur(0px);
     -ms-filter: blur(0px);
 }
-
+*/
 .circular {
 	width: 150px;
 	height: 150px;
