@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,41 +21,43 @@
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
+  </head>
 
-    <body>
+  <body>
 
-    	<!-- Navigation -->
-    	<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    	<nav id="sidebar-wrapper">
-    		<ul class="sidebar-nav">
-    			<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-    			<li class="sidebar-brand">
-    				<a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
-    			</li>
-    			<li>
-    				<a href="#top" onclick = $("#menu-close").click(); >Home</a>
-    			</li>
-    			<li>
-    				<a href="#about" onclick = $("#menu-close").click(); >About</a>
-    			</li>
-    			<li>
-    				<a href="#research" onclick = $("#menu-close").click(); >Research</a>
-    			</li>
-    			<li>
-    				<a href="#projects" onclick = $("#menu-close").click(); >Projects</a>
-    			</li>
-    			<li>
-    				<a href="#resume" onclick = $("#menu-close").click(); >Resume</a>
-    			</li>
-    		</ul>
-    	</nav>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+    	<a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+    	<li class="sidebar-brand">
+    	  <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
+    	</li>
+    	<li>
+    	  <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+    	</li>
+    	<li>
+    	  <a href="#about" onclick = $("#menu-close").click(); >About</a>
+    	</li>
+    	<li>
+    	  <a href="#projects" onclick = $("#menu-close").click(); >Projects</a>
+    	</li>
+		<li>
+    	  <a href="#extra" onclick = $("#menu-close").click(); >Extra-Acads</a>
+    	</li>
+
+    	<li>
+    	  <a href="#resume" onclick = $("#menu-close").click(); >Resume</a>
+    	</li>
+      </ul>
+    </nav>
 
 
     <!-- Header -->
@@ -73,8 +75,10 @@
 		</ul>
 		<div class="fb-follow" data-href="https://www.facebook.com/soumyadeepmukherjee17" data-layout="button_count" data-show-faces="true"></div>
 	  </div>
-	  </header>
+	</header>
     <!-- About -->
+	<section class="module parallax parallax-1"></section>
+
     <section id="about" class="services bg-primary">
       <div class="container">
         <div class="row text-center">
@@ -86,7 +90,7 @@
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                    <i class="fa fa-university fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
                     <strong>Student</strong>
@@ -98,7 +102,7 @@
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                    <i class="fa fa-home fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
                     <strong>Home</strong>
@@ -122,7 +126,7 @@
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                    <i class="fa fa-gamepad fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
                     <strong>Hobbies</strong>
@@ -140,119 +144,180 @@
       <!-- /.container -->
     </section>
 
-    		<!-- Portfolio -->
-    		<section id="portfolio" class="portfolio">
-    			<div class="container">
-    				<div class="row">
-    					<div class="col-lg-10 col-lg-offset-1 text-center">
-    						<h2>Our Work</h2>
-    						<hr class="small">
-    						<div class="row">
-    							<div class="col-md-6">
-    								<div class="portfolio-item">
-    									<a href="#">
-    										<img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-    									</a>
-    								</div>
-    							</div>
-    							<div class="col-md-6">
-    								<div class="portfolio-item">
-    									<a href="#">
-    										<img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-    									</a>
-    								</div>
-    							</div>
-    							<div class="col-md-6">
-    								<div class="portfolio-item">
-    									<a href="#">
-    										<img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-    									</a>
-    								</div>
-    							</div>
-    							<div class="col-md-6">
-    								<div class="portfolio-item">
-    									<a href="#">
-    										<img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-    									</a>
-    								</div>
-    							</div>
-    						</div>
-    						<!-- /.row (nested) -->
-    						<a href="#" class="btn btn-dark">View More Items</a>
-    					</div>
-    					<!-- /.col-lg-10 -->
-    				</div>
-    				<!-- /.row -->
+
+	<section class="module parallax parallax-2"></section>
+
+	<!-- Portfolio -->
+    <section id="projects" class="portfolio">
+      <div class="container">
+    	<div class="row">
+    	  <div class="col-lg-10 col-lg-offset-1 text-center">
+    		<h2>Our Work</h2>
+    		<hr class="small">
+    		<div class="row">
+    		  <div class="col-md-6">
+    			<div class="portfolio-item">
+    			  <a href="#">
+    				<img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+    			  </a>
     			</div>
-    			<!-- /.container -->
-    		</section>
+    		  </div>
+    		  <div class="col-md-6">
+    			<div class="portfolio-item">
+    			  <a href="#">
+    				<img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+    			  </a>
+    			</div>
+    		  </div>
+    		  <div class="col-md-6">
+    			<div class="portfolio-item">
+    			  <a href="#">
+    				<img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+    			  </a>
+    			</div>
+    		  </div>
+    		  <div class="col-md-6">
+    			<div class="portfolio-item">
+    			  <a href="#">
+    				<img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+    			  </a>
+    			</div>
+    		  </div>
+    		</div>
+    		<!-- /.row (nested) -->
+    		<a href="#" class="btn btn-dark">View More Items</a>
+    	  </div>
+    	  <!-- /.col-lg-10 -->
+    	</div>
+    	<!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+	<section class="module parallax parallax-3"></section>
 
-			<section id="resume">
-			  <aside class="call-to-action bg-primary">
-				<div class="container">
-				  <div class="row">
-					<div class="col-lg-12 text-center">
-					  <h3>You can download my Resum&eacute.</h3>
-					  <a href="./Resume/Soumyadeeep-Mukherjee.pdf" class="fa fa-download" style="font-size:48px"></a>
-					  <h4>Contact:  soumyadeep.mukherjee[at]iitkgp.ac.in </h4>
-					</div>
-				  </div>
+	<section class="Extra bg-primary">
+	  <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-10 col-lg-offset-1">
+            <h2>Responsibilities</h2>
+            <hr class="small">
+            <div class="row">
+			  
+			  <article class="col-md-3 isotopeItem isotope-item">
+				<figure class="extra-photo"><img src="img/cfer.jpg" alt="" /></figure>
+				<div class="extra-detail">
+				  <h4>Student Coordinator, Centre for Excellence in Robotics</h4>
 				</div>
-			  </aside>
-			</section>
+				<span>March 2015 - Current </span>
+              </article>
 
-    	<!-- Footer -->
-    	<footer>
-    					<hr class="small">
-<center><p class ="text-muted">Cover Image: Courtesy <a href="https://www.facebook.com/Asidity">Asidity</a></p>
-<p class="text-muted">Copyright &copy; Soumyadeep Mukherjee 2015</p></center>
-    	</footer>
+			  <article class="col-md-3 isotopeItem isotope-item">
+				<figure class="extra-photo"><img src="img/ark.jpg" alt="" height="100" /></figure>
+				<div class="extra-detail">
+				  <h4>Student Coordinator, Aerial Robotics Kharagpur</h4>
+				</div>
+				<span>January 2015 - Current </span>
+              </article>
 
-    	<!-- jQuery -->
-    	<script src="js/jquery.js"></script>
+			  <article class="col-md-3 isotopeItem isotope-item">
+				<figure class="extra-photo"><img src="https://www.robotix.in/img/sprites/logo.png" alt="" /></figure>
+				<div class="extra-detail">
+				  <h4>Governor & Head, Technology Robotix Society</h4>
+				</div>
+				<span>August 2014-June 2015 | March 2013-March 2014</span>
+              </article>
 
-    	<!-- Bootstrap Core JavaScript -->
-    	<script src="js/bootstrap.min.js"></script>
+			  <article class="col-md-3 isotopeItem isotope-item">
+				<figure class="extra-photo"><img src="img/krssg.png" alt="" /></figure>
+				<div class="extra-detail">
+				  <h4>Student Coordinator, Kharagpur Robosoccer Student's Group</h4>
+				</div>
+				<span>April 2014-April 2015</span>
+              </article>
 
-    	<!-- Custom Theme JavaScript -->
-    	<div id="fb-root"></div>
-    	<script>(function(d, s, id) {
-    		var js, fjs = d.getElementsByTagName(s)[0];
-    		if (d.getElementById(id)) return;
-    		js = d.createElement(s); js.id = id;
-    		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-    		fjs.parentNode.insertBefore(js, fjs);
-    	}(document, 'script', 'facebook-jssdk'));
-  // Closes the sidebar menu
-  $("#menu-close").click(function(e) {
-  	e.preventDefault();
-  	$("#sidebar-wrapper").toggleClass("active");
-  });
+			  <article class="col-md-3 isotopeItem isotope-item">
+				<figure class="extra-photo"><img src="img/csn.jpg" alt="" /></figure>
+				<div class="extra-detail">
+				  <h4>Head Boy, Cambridge School Noida</h4>
+				</div>
+				<span>April 2010-February 2011</span>
+              </article>
+			  
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	
+	<section class="module parallax parallax-4"></section>
 
-  // Opens the sidebar menu
-  $("#menu-toggle").click(function(e) {
-  	e.preventDefault();
-  	$("#sidebar-wrapper").toggleClass("active");
-  });
+	<section id="resume">
+	  <aside class="call-to-action bg-primary">
+		<div class="container">
+		  <div class="row">
+			<div class="col-lg-12 text-center">
+			  <h3>You can download my Resum&eacute.</h3>
+			  <a href="./Resume/Soumyadeeep-Mukherjee.pdf" class="fa fa-download" style="font-size:48px"></a>
+			  <h4>Contact:  soumyadeep.mukherjee[at]iitkgp.ac.in </h4>
+			</div>
+		  </div>
+		</div>
+	  </aside>
+	</section>
 
-  // Scrolls to the selected menu item on the page
-  $(function() {
-  	$('a[href*=#]:not([href=#])').click(function() {
-  		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+    <!-- Footer -->
+    <footer>
+      <hr class="small">
+	  <center><p class ="text-muted">Cover Image: Courtesy <a href="https://www.facebook.com/Asidity">Asidity</a></p>
+		<p class="text-muted">Copyright &copy; Soumyadeep Mukherjee 2015</p></center>
+    </footer>
 
-  			var target = $(this.hash);
-  			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-  			if (target.length) {
-  				$('html,body').animate({
-  					scrollTop: target.offset().top
-  				}, 1000);
-  				return false;
-  			}
-  		}
-  	});
-  });
-</script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-</body>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+	  // Closes the sidebar menu
+	  $("#menu-close").click(function(e) {
+  	  e.preventDefault();
+  	  $("#sidebar-wrapper").toggleClass("active");
+	  });
+
+	  // Opens the sidebar menu
+	  $("#menu-toggle").click(function(e) {
+  	  e.preventDefault();
+  	  $("#sidebar-wrapper").toggleClass("active");
+	  });
+
+	  // Scrolls to the selected menu item on the page
+	  $(function() {
+  	  $('a[href*=#]:not([href=#])').click(function() {
+  	  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+  	  var target = $(this.hash);
+  	  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+  	  if (target.length) {
+  	  $('html,body').animate({
+  	  scrollTop: target.offset().top
+  	  }, 1000);
+  	  return false;
+  	  }
+  	  }
+  	  });
+	  });
+	</script>
+	<script src="js/jquery.isotope.min.js"></script>
+
+  </body>
 
 </html>

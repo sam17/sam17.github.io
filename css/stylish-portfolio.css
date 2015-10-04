@@ -53,7 +53,7 @@ ul#icon-list li a {
 }
 
 ul#icon-list li a:hover {
-    background-color: orange;
+    background-color: #337ab7;
 }
 
 /* Custom Button Styles */
@@ -284,4 +284,52 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+
+/*Parallax*/
+section.module.parallax {
+  height: 300px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax-1 {
+  background-image: url("../img/ws.jpg");
+}
+section.module.parallax-2 {
+	background-image: url("../img/fira.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/swarm.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("../img/rbtx.jpg");
+}
+
+/*Extra Menus*/
+.extra,.col-lg-4 {
+		margin-bottom: 30px;
+}
+.extra-photo {
+
+	box-sizing:border-box;
+	-webkit-border-radius:50%;
+		-moz-border-radius:50%;
+			border-radius:50%;	
+			margin:0 0 0 0;
+}
+.extra-photo img {
+	width: 150px;
+	height: 150px;
+	object-fit:contain;
+	background-color:white;
+	-webkit-border-radius:50%;
+		-moz-border-radius:50%;
+			border-radius:50%;	
+}
+
+.extra-detail h4 {
+	font-weight: 700;
 }
