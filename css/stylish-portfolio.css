@@ -90,6 +90,11 @@ hr.small {
     max-width: 100px;
 }
 
+hr.small-b{
+    max-width: 100px;
+	border-top: 1px solid #0A0A0A;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
