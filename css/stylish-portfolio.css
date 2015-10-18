@@ -230,7 +230,7 @@ hr.small-b{
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(../img/Me.jpg) no-repeat left;
-    z-index: -1;
+    z-index: 2;
     background-position: left -30px top;
     background-size: 210px 210px;
     filter: contrast(130%);
