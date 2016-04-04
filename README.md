@@ -4,11 +4,11 @@ Personal Website of [Soumyadeep Mukherjee](http://soumyadeepmukherjee.com).
 #Using Template
 
 * Navigation
-    * Add ``` <a href="#section" onclick = $("#menu-close").click-menu(); >section</a>``` at appropriate place.
+    * Add ` <a href="#section" onclick = $("#menu-close").click-menu(); >section</a>` at appropriate place.
 * Header
-    * Add ```<li><a href="https://link" class="icon" style="font-size:32px;color:white" ></a></li>``` for icon of external link.
+    * Add `<li><a href="https://link" class="icon" style="font-size:32px;color:white" ></a></li>` for icon of external link.
 * About
-    * Add for About section icons and description
+    * Add code for About section icons and description
     ```     
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
@@ -21,10 +21,10 @@ Personal Website of [Soumyadeep Mukherjee](http://soumyadeepmukherjee.com).
                   <p>TEXT TEXT TEXT </p>
                 </div>
               </div>
-              ```
+    ```
 * Portfolio 
     *  Add New Section
-        * Add ```<li><a href="#" class="current btn-theme btn-small" data-filter=".TYPE">TYPE</a></li>```
+        * Add `<li><a href="#" class="current btn-theme btn-small" data-filter=".TYPE">TYPE</a></li>`
     * Add the following segment to add new project icon. 	  
     ```
         		  <article class="col-md-4 isotopeItem TYPE">
@@ -46,7 +46,7 @@ Personal Website of [Soumyadeep Mukherjee](http://soumyadeepmukherjee.com).
     ```
     * Portfolio Description
         * Add the following segment with description and kind of image/video/frame.
-```
+	```
     <div class="portfolio-modal modal fade" id="PORTFOLIO-ID" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-content">
     	<div class="close-modal" data-dismiss="modal">
@@ -75,7 +75,7 @@ Personal Website of [Soumyadeep Mukherjee](http://soumyadeepmukherjee.com).
     	</div>
       </div>
     </div>
-```
+	```
 
 
 
