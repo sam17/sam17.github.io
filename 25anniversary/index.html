@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Mukherjees Turn 25</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,38 +39,21 @@
     <header>
         <div class="header-content">
           <div class="header-content-inner">
-            <h1 id="homeHeading">Mukherjees Turn 25</h1>
+            <h1 id="homeHeading">Mukherjees turned 25!</h1>
 			<br>
-			<center><script type="application/javascript">
-			  var myCountdown1 = new Countdown({
-			  //time: 86400 * 3, // 86400 seconds = 1 day
-			  year: 2016,
-			  month: 8,
-			  day: 12,
-			  hour: 7,
-			  ampm: "pm",
-			  minute: 30,
-			  second: 0,
-			  timezone: +5.5,
-			  width:300,
-			  height:60,
-			  rangeHi:"day",
-			  labels: {
-			  color: "#FF4500"
-			  },
-			  style:"flip"    // <- no comma on last item!
-									});
+			
 
-									</script></center>
-			<br>
-
-			<p>You are warmly invited!</p>
-                <a class="btn btn-primary btn-xl " target = "_blank" href="http://maps.google.com/maps?daddr=India+Habitat+Centre+New+Delhi">Click for Directions</a>
+			<p>Thank You all for Joining Us!</p>
+               <a id="button" class="btn btn-primary btn-xl " href="#video">Scroll for Pictures</a>
             </div>
         </div>
     </header>
-	
-    <section id="contact">
+
+	<section id="video">
+	  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/brUDpL6PYFg" frameborder="0" allowfullscreen></iframe></center>
+	</section>
+
+    <section id="contact">  
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2 text-center">
@@ -84,7 +67,7 @@
             </div>
         </div>
     </section>
-
+	
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -99,6 +82,14 @@
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
 
+	<script>
+	  $("#button").click(function() {
+	  $('html,body').animate({
+	  scrollTop: $("#video").offset().top},
+	  'slow');
+	  });
+	</script
+	   >
 </body>
 
 </html>
