@@ -6,12 +6,12 @@ $(function () {
         'np',  // Nepal
         'th',  // Thailand
         'sg',  // Singapore
-        //'my',  // Malaysia
-        //'ch',  // Switzerland
-        //'de',  // Germany
-        //'fr',  // France
-        //'au',   // Australia
-		'id',  //Indonesia
+        'my',  // Malaysia
+        'ch',  // Switzerland
+        'de',  // Germany
+        'fr',  // France
+        'au',   // Australia
+		
     ]
 
     const visited_states_in_india = [
