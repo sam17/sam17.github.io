@@ -1157,3 +1157,15 @@ This is the CSS for the social links
 	background-position: 0 -17px;
 	color: #444444;
 }
+
+#contact {
+	position: relative;
+	width: fit-content;
+	margin: 0px;
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding: 0 0 0 0;
+	border-right: 0;
+	border-style: none;
+	text-align: center;
+}
