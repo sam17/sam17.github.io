@@ -1,0 +1,27 @@
+---
+title: Blog.Erictreacy.Github.Io
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: "/blog/:title"
+name: Writing
+description: A blog on Jekyll and GitHub Pages
+google_verification: 
+include:
+- ".htaccess"
+exclude:
+- README.md
+- LICENSE
+sass:
+  style: compressed
+  sass_dir: _sass
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge

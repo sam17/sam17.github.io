@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eric Treacy &mdash; Writing</title>
+    <meta charset="utf-8">
+     <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@erictreacy/writing"/>
+        <meta name="twitter:title" content="Eric Treacy - Writing"/>
+        <meta name="twitter:description" content="My name is Eric &amp; I am a Lab Engineer and Web Developer with an aptitude &amp; affinity for bench science, lab design &amp; software."/>
+        <meta name="twitter:image" content="http://res.cloudinary.com/erictreacy/image/upload/c_scale,e_auto_brightness,q_auto:best,w_960/v1483636647/erictreacy.jpg"/>
+        <meta property="og:title" content="Eric Treacy"/>
+        <meta property="og:url" content="https://blog.erictreacy.me"/>
+        <meta property="og:image" content="http://res.cloudinary.com/erictreacy/image/upload/c_scale,e_auto_brightness,q_auto:best,w_960/v1483636647/erictreacy.jpg"/>
+        <meta name="description" content="My name is Eric Treacy & I am a Lab Engineer and Web Developer with an aptitude & affinity for bench science, lab design & software development.">
+        <meta name="author" content="@erictreacy">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    {% if page.title %}
+        <title>{{ page.title }}</title>
+    {% else %}
+        <title>{{ site.name }}</title>
+    {% endif %}
+
+    <meta name="description" content="{{ site.description }}">
+
+    {% if site.google_verification %}
+        <meta name="google-site-verification" content="{{ site.google_verify }}">
+    {% endif %}
+
+    <link rel="icon" href="/assets/img/blog.png">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Roboto|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        {{ content }}
+    </div>
+
+</body>
+
+</html>

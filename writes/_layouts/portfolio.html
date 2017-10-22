@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="header">
+    <h1><a href="/">{{ site.name }}</a></h1>
+    <ul>
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="about">
+    <h1 class="about__title">Portfolio</h1>
+    <div class="about__content">
+        {{ content }}
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2017 <a href="http://erictreacy.me">Eric Treacy</a>, unless otherwise noted.</p>
+</div>

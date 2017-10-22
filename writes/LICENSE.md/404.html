@@ -1,0 +1,25 @@
+---
+title: Page Does Not Exist...
+permalink: "/404.html"
+layout: default
+---
+
+<div class="header">
+    <h1><a href="/">{{ site.name }}</a></h1>
+    <ul>
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+<br>
+<p>404.</p>
+<br />
+<br />
+<div class="footer">
+    <p>&copy; 2017 <a href="http://erictreacy.me">Eric Treacy</a>, unless otherwise noted.</p>
+</div>
