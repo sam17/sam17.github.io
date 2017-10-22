@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Eric Treacy &mdash; Writing</title>
+    <title>Soumyadeep Mukherjee &mdash; Writing</title>
     <meta charset="utf-8">
      <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@erictreacy/writing"/>
@@ -18,13 +18,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    
-        <title>Page Does Not Exist...</title>
-    
+    {% if page.title %}
+        <title>{{ page.title }}</title>
+    {% else %}
+        <title>{{ site.name }}</title>
+    {% endif %}
 
-    <meta name="description" content="A blog on Jekyll and GitHub Pages">
+    <meta name="description" content="{{ site.description }}">
 
-    
+    {% if site.google_verification %}
+        <meta name="google-site-verification" content="{{ site.google_verify }}">
+    {% endif %}
 
     <link rel="icon" href="/assets/img/blog.png">
     <link href="https://fonts.googleapis.com/css?family=Alegreya|Roboto|Roboto+Mono" rel="stylesheet">
@@ -34,30 +38,7 @@
 <body>
 
     <div class="wrapper">
-        <div class="header">
-    <h1><a href="/">Writing</a></h1>
-    <ul>
-        
-        <li>
-            <a href="http://soumyadeep.in">About</a>
-        </li>
-        
-        <li>
-            <a href="http://soumyadeep.in">Portfolio</a>
-        </li>
-        
-    </ul>
-</div>
-
-
-<br>
-<p>404.</p>
-<br />
-<br />
-<div class="footer">
-    <p>&copy; 2017 <a href="http://erictreacy.me">Eric Treacy</a>, unless otherwise noted.</p>
-</div>
-
+        {{ content }}
     </div>
 
 </body>
