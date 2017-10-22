@@ -5,18 +5,14 @@ collections:
   posts:
     title: Posts
     output: true
-  uploads:
-    title: Uploads
-    output: true
-permalink: "/blog/:title"
+permalink: "/writes/:title"
 name: Writing
-description: A blog on Jekyll and GitHub Pages
+description: life and times of a living dementor
 google_verification: 
 include:
 - ".htaccess"
 exclude:
 - README.md
-- LICENSE
 sass:
   style: compressed
   sass_dir: _sass
